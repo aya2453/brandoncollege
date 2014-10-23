@@ -1,0 +1,38 @@
+// ==========================================================================
+// Base – Mixins
+// ==========================================================================
+
+// Font Sizes (REMs with PX fallback for older browsers)
+@mixin font-size($size) {
+    font-size: $size + px;
+    font-size: ($size / $default-font-size) + rem;
+}
+
+// Line Height Sizes (REMs with PX fallback for older browsers)
+@mixin line-height($size) {
+    line-height: $size + px;
+    line-height: ($size / $default-font-size) + rem;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+//Transition
+@mixin transition($duration:3s){
+    -webkit-transition:$duration ease-out;
+    -moz-transition:$duration ease-out;
+    -ms-transition:$duration ease-out;
+    -o-transition:$duration ease-out;
+    transition:$duration ease-out;}
+
+
+// Rounded Corners
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
