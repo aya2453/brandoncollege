@@ -2,20 +2,25 @@
 // Base – Custom Buttons
 // ==========================================================================
 .button {
-  border: 0;
-  padding: 1em 3em;
-  background-color: $default-button-color;
-  color: #fff;
-  text-decoration: none;
-  @extend .text-center;
-  @extend .inline-block;
-  position: relative;
+	position: relative;
+	background-color: $accent-font-color;
+	border-radius: 4px;
+	font-weight:$font-weight-bold;
+	padding:10px 15px;
+	color: $white;
+	-webkit-transition: none;
+	transition: none;
+	box-shadow: 0 3px 0 #003d6b;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 }
 .button:hover {
-  background-color: $default-button-hover-color;
+	background-color: #0283e5;
+	box-shadow: 0 3px 0 #0561a6;
+	color:#fff;
 }
 .button:active {
-  top: 1px;
+	top: 3px;
+	box-shadow: none;
 }
 
 .grey-button {

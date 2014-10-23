@@ -3,6 +3,14 @@ Thumbs.db
 ehthumbs.db
 .sass-cache/
 node_modules/
+.htaccess
+_bower.json
+bower.json
+editorcongig
+gulpfile.js
+package.json
+.gitattributes
+
 
 # Folder config file
 Desktop.ini
