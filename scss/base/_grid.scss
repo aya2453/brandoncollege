@@ -12,6 +12,16 @@
 	overflow:hidden;
 }
 
+.container-nonflow {
+  max-width: $desktop-container;
+  margin-left: auto;
+  margin-right: auto;
+	padding-left:10px;
+	padding-right:10px;
+	overflow:visible;
+}
+
+
 .list-wrap{
 	margin:0 -10px 0 -10px;}
 

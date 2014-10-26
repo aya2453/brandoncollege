@@ -13,8 +13,8 @@ dt { @extend .font-normal; }
 dd {
   margin-bottom: 1em;
 }
-menu, ol, ul { padding: 0 0 0 22px; }
-nav ul, nav ol {
+menu, ol, ul { padding: 0; }
+nav ul, nav ,ol ,li {
   list-style: none;
   list-style-image: none;
 }

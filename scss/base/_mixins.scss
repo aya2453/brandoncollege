@@ -36,3 +36,10 @@
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
+
+//Box Shadow
+@mixin box-shadow($value) {
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;
+}
