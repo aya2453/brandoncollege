@@ -2,8 +2,6 @@
 // Mobile Custom Styles
 // ==========================================================================
 
-// your styles go here...
-
 .apply-box-inner{
 	text-align:center;
 	}
@@ -12,3 +10,30 @@
 	text-align:center;
 	}
 	
+//nav
+
+.globalnav > li {
+			float: none;
+	}
+	
+.globalnav >li > a{
+	background:$accent-font-color;
+			color:$white;
+			padding:10px 15px;
+			&:hover{
+				color:$white;}
+}
+	
+.globalnav ul {
+		display: block;
+		width: 100%;
+}
+.globalnav > li.hover > ul , .globalnav li li.hover ul {
+		position: static;
+}
+
+.globalnav ul{
+	box-shadow:none;}
+
+.top-bar-sns{
+	display:none;}
