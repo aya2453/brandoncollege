@@ -142,6 +142,11 @@ h5, .h5 {
 h6, .h6 {
   @include font-size($h6);
 }
+
+h6.footer{
+	@extend h6;
+	color:#FFF;
+	}
 // Remove Heading Styling
 .no-style-heading {
   @extend .no-margin;
