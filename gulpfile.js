@@ -14,7 +14,7 @@ gulp.task("server", function() {
 });
 
 gulp.task('html', function () {
-  gulp.src('./*.html')
+  gulp.src('./**/*.html')
     .pipe(browser.reload({stream:true}))
 });
 
@@ -38,6 +38,6 @@ gulp.task("js", function() {
 gulp.task('default', ['server'] ,function() {
     gulp.watch(["js/**/*.js","!js/min/**/*.js"],["js"]);
     gulp.watch("scss/**/*.scss",["sass"]);
-		gulp.watch("./*.html",["html"]);
+		gulp.watch("./**/*.html",["html"],['bsReload']);
 });
 

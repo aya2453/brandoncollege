@@ -59,3 +59,17 @@ var adjustMenu = function() {
 $(document).ready(function(){
   $('.testimonials-slider-wrap').bxSlider();
 });
+
+//Sidebar hover
+//mouseOver-Sidebar
+
+$(document).ready(function(){
+	var windows = $(window).width();
+	if(windows>=768){
+				$('.sidebar-nav li').hover(function() {
+                $(this).stop().animate({'marginLeft':'3px'}, 300);//左を3px空ける事でテキストを右にずらす
+                },function() {
+                $(this).stop().animate({'marginLeft':'0px'}, 300);
+                });
+	}
+});

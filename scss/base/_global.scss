@@ -88,7 +88,7 @@ hr {
   background: none;
   outline: 0;
   background-color: #ddd;
-  margin: 2em 0;
+  margin-bottom: 0.5em;
   *margin: 1em 0;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -107,6 +107,12 @@ h1, .h1 {
 h2, .h2 {
   @include font-size($h2);
 }
+
+h1.header-title{
+	@extend h1;
+	color:$white;
+	font-weight:$font-weight-thin;
+	}
 
 h2.welcome{
 	@extend h2;
@@ -139,6 +145,18 @@ h5, .h5 {
   @include font-size($h5);
 	text-align:center;
 }
+
+h5.post-title{
+	font-family:$default-font-family;
+	@include font-size(16);
+	font-weight:$font-weight-semibold;
+	padding:3px;
+	text-align:center;
+	margin:0.5em 0;
+		&:first-letter{
+		color:$default-font-color;}
+	}
+
 h6, .h6 {
   @include font-size($h6);
 }

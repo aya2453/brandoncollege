@@ -1,16 +1,19 @@
 
 @charset "UTF-8";
 
-// ==========================================================================
+/*
+Theme Name: Twenty Thirteen
+Theme URI: https://github.com/aya2453/wp-theme-brandoncollege
+Author: Aya Nakagawa
+Author URI: http://aya2453.github.io
+Description: This is Brandon College Theme
+Tags: school,blue
+*/
 
-// Base Stylesheet - http://git.io/base
-// Author: Matthew Hartman - http://www.matthewhartman.com.au/
-// Version: 1.8.5 - Last Updated: 25th of June, 2014
 
-// ==========================================================================
 
   
-	@import "base/_fonts";    // Fonts
+	@import "base/_fonts";    			// Fonts
 	@import "base/_variables";    // Global Variables
 
   @import "base/_mixins";       // Base Mixins
