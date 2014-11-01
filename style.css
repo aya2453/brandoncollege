@@ -1,13 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Rokkitt:400,700);
 /*
-Theme Name: Twenty Thirteen
-Theme URI: https://github.com/aya2453/wp-theme-brandoncollege
+Theme Name: Brandon College
+Theme URI: https://github.com/aya2453/brandoncollege
 Author: Aya Nakagawa
 Author URI: http://aya2453.github.io
 Description: This is Brandon College Theme
 Tags: school,blue
 */
-
-
 @font-face {
   font-family: 'icomoon';
   src: url('../fonts/icomoon.eot?-emfc4h');
@@ -208,8 +207,8 @@ h2, h2.welcome, .h2 {
   font-size: 1.85714rem; }
 
 h1.header-title {
-  color: #FFF;
-  font-weight: 300; }
+  /*color:$white;*/
+  color: #555; }
 
 h2.welcome {
   font-family: "Rokkitt"; }
@@ -447,6 +446,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .button:active {
   top: 3px;
   box-shadow: none; }
+
+.button-readmore {
+  background: #0068b7;
+  color: #FFF;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  padding: 5px 10px;
+  font-weight: 700;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out; }
+  .button-readmore:hover {
+    background: #555; }
 
 .grey-button {
   background-color: #eee;
@@ -957,9 +968,19 @@ a.icon-flickr:hover {
     padding: 0.1em;
     color: #FFF; }
 
-.news-post dt {
+.news-post .post-title {
   font-size: 19px;
   font-size: 1.35714rem; }
+  .news-post .post-title a {
+    color: #555; }
+
+.news-post dt a {
+  color: #555;
+  font-size: 20px;
+  font-size: 1.42857rem;
+  font-weight: 400; }
+  .news-post dt a:hover {
+    color: #0068b7; }
 
 /*Testimonials Slider*/
 .testimonials-slide {
@@ -1050,11 +1071,15 @@ footer ul li {
 .copyright {
   border-top: 1px solid #0068b7;
   padding: 10px 0; }
+  .copyright small {
+    font-size: 11px;
+    font-size: 0.78571rem; }
 
 header.page-header {
-  background: url(../images/common/page-title-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: 20% 10%;
+  background: url(../images/common/gplaypattern.png) repeat;
+  /*background-size:cover;
+	background-position:20% 10%;
+	background:#ddd;*/
   padding: 3em 0; }
 
 .page-header-wrap {
@@ -1111,6 +1136,36 @@ header.page-header {
   color: #555; }
   .sidebar-nav-wrap a:hover {
     color: #0068b7; }
+
+.page-contents .news-post {
+  border-bottom: 1px solid #ddd; }
+.page-contents .news-cont {
+  float: left;
+  margin-left: 30px; }
+  .page-contents .news-cont dd a {
+    display: block; }
+  .page-contents .news-cont .post-title i {
+    font-size: 13px;
+    font-size: 0.92857rem;
+    background: #0068b7;
+    color: #FFF;
+    display: block;
+    float: left;
+    padding: 8px; }
+  .page-contents .news-cont .post-title a {
+    /*line-height:28px;*/
+    /*margin-left:5px;*/
+    font-weight: 700; }
+    .page-contents .news-cont .post-title a:hover {
+      color: #0068b7; }
+.page-contents .post-meta {
+  font-size: 12px;
+  font-size: 0.85714rem; }
+  .page-contents .post-meta a {
+    color: #555;
+    text-decoration: underline; }
+    .page-contents .post-meta a:hover {
+      color: #0068b7; }
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
   .container, .tablet-container {

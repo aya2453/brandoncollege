@@ -13,6 +13,8 @@
 	box-shadow: 0 3px 0 #003d6b;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 }
+
+
 .button:hover {
 	background-color: #0283e5;
 	box-shadow: 0 3px 0 #0561a6;
@@ -22,6 +24,20 @@
 	top: 3px;
 	box-shadow: none;
 }
+
+.button-readmore{
+	background:$accent-font-color;
+	color:$white;
+	@include font-size(12);
+	padding:5px 10px;
+	font-weight:$font-weight-bold;
+	@include transition(0.5s);
+	&:hover{
+		background:$default-font-color;
+		}
+	}
+
+
 
 .grey-button {
   background-color: #eee;

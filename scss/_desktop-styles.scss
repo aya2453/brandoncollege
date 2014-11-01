@@ -274,8 +274,20 @@ a{
 	}
 }
 
-.news-post dt{
+.news-post .post-title{
 	@include font-size(19); 
+	a{
+		color:$default-font-color;
+		}
+	}
+	
+.news-post dt a{
+	color:$default-font-color;
+	@include font-size(20);
+	font-weight:$font-weight-medium;
+	&:hover{
+		color:$accent-font-color;
+		}
 	}
 	
 /*Testimonials Slider*/
@@ -379,14 +391,18 @@ footer ul li{
 .copyright{
 	border-top:1px solid $accent-font-color;
 	padding:10px 0;
+	small{
+		@include font-size(11);
+		}
 }
 
 //Pages-Style
 
 header.page-header{
-	background:url(../images/common/page-title-bg.jpg) no-repeat;
-	background-size:cover;
+	background:url(../images/common/gplaypattern.png) repeat;
+	/*background-size:cover;
 	background-position:20% 10%;
+	background:#ddd;*/
 	padding:3em 0;	
 }
 
@@ -464,3 +480,49 @@ a{
 		}}
 			
 }
+
+//Pages
+
+
+.page-contents{
+
+.news-post{
+	border-bottom:1px solid $box-border-color;	
+	}
+	
+	.news-cont{
+		float:left;
+		margin-left:30px;
+		dd a{
+			display:block;
+			}
+		.post-title {
+			i{
+			@include font-size(13);
+			background:$accent-font-color;
+			color:$white;
+			display:block;
+			float:left;
+			padding:8px;
+			}
+			a{
+				/*line-height:28px;*/
+				/*margin-left:5px;*/
+				font-weight:$font-weight-bold;
+				&:hover{
+					color:$accent-font-color;}
+				}
+		}
+		
+	}
+	.post-meta{
+		@include font-size(12);
+		a{
+			color:$default-font-color;
+			text-decoration:underline;
+			&:hover{
+				color:$accent-font-color;}}
+		}
+	
+}
+

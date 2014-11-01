@@ -110,8 +110,8 @@ h2, .h2 {
 
 h1.header-title{
 	@extend h1;
-	color:$white;
-	font-weight:$font-weight-thin;
+	/*color:$white;*/
+	color:$default-font-color;
 	}
 
 h2.welcome{
