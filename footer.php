@@ -9,23 +9,24 @@
             <?php dynamic_sidebar('footer-1'); ?>
             <div class="footer-cont col-4 col mobile-full"><h6 class="footer">Latest Tweets</h6>
               <ul class="footer-tweets">
-                <li><i class="icon-twitter"></i>I found it not only delightful to stuty at Brandon College.</li>
-                <li><i class="icon-twitter"></i>I found it not only delightful to stuty at Brandon College,</li>
-                <li><i class="icon-twitter"></i>I found it not only delightful to stuty at Brandon College,</li>
+                <li><i class="fa fa-twitter"></i>I found it not only delightful to stuty at Brandon College.</li>
+                <li><i class="fa fa-twitter"></i>I found it not only delightful to stuty at Brandon College,</li>
+                <li><i class="fa fa-twitter"></i>I found it not only delightful to stuty at Brandon College,</li>
               </ul>
             </div>
             <div class="footer-cont col-4 col mobile-full"><h6 class="footer">Contact Us</h6>
               <ul class="footer-contact">
-                <li><i class="icon-location"></i>944 Market Street,2nd Floor<br>
+                <li><i class="fa fa fa-map-marker"></i>944 Market Street,2nd Floor<br>
 San Fransisco,CA 94102 U.S.</li>
-                <li><i class="icon-phone"></i>(415)-391-5711</li>
-                <li><i class="icon-envelope"></i>info@brandoncollege</li>
+                <li><i class="fa fa-phone"></i>(415)-391-5711</li>
+                <li><i class="fa fa-envelope"></i>info@brandoncollege</li>
+                <li><i class="fa fa-fax"></i>(415)-391-3918</li>
               </ul>
               <div class="footer-sns-icon clear">
-                <a href="" target="_blank" class="icon-twitter"></a>
-                <a href="" target="_blank" class="icon-facebook"></a>
-                <a href="" target="_blank" class="icon-flickr"></a>
-                <a href="" target="_blank" class="icon-google"></a>
+                <a href="" target="_blank" class="fa fa-twitter hf-icon-t"></a>
+                <a href="" target="_blank" class="fa fa-facebook hf-icon-f"></a>
+                <a href="" target="_blank" class="fa fa-google hf-icon-g"></a>
+                <a href="" target="_blank" class="fa fa-flickr hf-icon-fl"></a>
               </div>
             </div>    
           </div>
@@ -41,9 +42,9 @@ San Fransisco,CA 94102 U.S.</li>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/default.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/default.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to your website's ID. -->
 <!--

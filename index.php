@@ -1,79 +1,61 @@
 <?php get_header(); ?>
-
-    <!--mainslider-->
-    <div class="main-slider">
-      <p>ブログページ</p>
-    </div>
-    <!--mainsliderEND--> 
-    <section id="main">
-			<?php get_template_part( 'content', 'home' ); ?>
     
-      
-      <!--whybrandon-->
-      <div class="why-row">
-        <div class="container row clear">
-          <h4 class="main-heading"><span>Why choose Brandon College?</span></h4>
-          <div class="  col-7 left mobile-full"><img src="images/top/topwhy.jpg"></div>
-          <div class=" col-5 right  mobile-full">
-            <div class="whychoose-wrap">
-              <h5>There are many reasons you choose us</h5>
-              <p>Temporibus autem quibusdam et aut officiis<br> debitis aut rerum necessitatibus saepe</p>
-              <ul class="why-list  list-unstyled">
-                <li><span class="icon-checkmark"></span>debitis aut rerum necessitatibus saepe hug</li>
-                <li><span class="icon-checkmark"></span>debitis aut rerum necessitatibus saepe hug</li>
-                <li><span class="icon-checkmark"></span>debitis aut rerum necessitatibus saepe hug</li>
-                <li><span class="icon-checkmark"></span>debitis aut rerum necessitatibus saepe hug</li>
-                <li><span class="icon-checkmark"></span>debitis aut rerum necessitatibus saepe hug</li>
-              </ul>
-            </div>
-          </div>
+    <section id="main">
+    	<header class="page-header" style="margin-bottom:2em;">
+      	<div class="container">
+      	<h1 class="header-title">Blog</h1>
         </div>
-      </div>
-      <!--whybrandon END-->
-      
-      <!--news and testimonials-->
-      <div class="newstest-row"> 
-        <div class="container row clear">
-          <div class="col-6 left mobile-full"><h4 class="main-heading"><span>Latest News</span></h4>
-            <article class="news-post clear">
-              <div class="news-date-wrap left">
-                <span class="news-date">16</span>
-                <span class="news-month">JAN</span>
-              </div>
-              <dl class="news-cont col-10 right">
-                <dt><a href="">This is standert post</a></dt>
-                <dd><p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p><p><a href="">Read More&gt;&gt;</a></p></dd>
-              </dl>
-            </article>
-            
-          </div>
-          <div class="col-5 right mobile-full"><h4 class="main-heading"><span>Testimonials</span></h4>
-            <div class="testimonials-slider-wrap">
-            
-              <div class="testimonials-slide">
-                <div class="testimonials-box-wrap">
-                  <div class="testimonials-slide-box">
-                    <p>I found it not only delightful to stuty at Brandon College,
-        but also pleasure to make friends from all over the world.
-        I will never forget this experience.</p>
-                  </div>
+      </header>
+      <div class="page-wrap">
+				<div class="container clear">
+        	<div class="page-contents col-9 left mobile-full">
+          	<div class="main-contents-wrap">
+            	<!--post-->
+              <article class="news-post clear">
+              	<div class="news-post-border clear">
+                <div class="news-date-wrap left">
+                  <span class="news-date">16</span>
+                  <span class="news-month">JAN</span>
                 </div>
-                <div class="testimonials-slide-name"><span class="icon-user person"></span>－Araki Japan</div>
-              </div>
+                <div class="news-cont col-10 right">
+                  <div class="clear post-title"><!--<i class="icon-pencil"></i>--><a href="">This is a standert post</a></div>
+                  <div class="post-meta">
+                  <i class="icon-tags"></i> <span class="meta-cat"><a href="">Wordpress</a>, <a href="">Classes</a>, <a href="">Beyonce</a></span>
+                  
+                  </div>
+                  <div class="post-contents"><p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p><p><a href="" class="button-readmore">Read More</a></p></div>
+                </div>
+                </div>
+              </article>
+              <!--postEND-->
+              
+            	<!--post-->
+              <article class="news-post clear">
+                <div class="news-date-wrap left">
+                  <span class="news-date">16</span>
+                  <span class="news-month">JAN</span>
+                </div>
+                <div class="news-cont col-10 right">
+                  <div class="clear post-title"><!--<i class="icon-pencil"></i>--><a href="">This is a standert post</a></div>
+                  <div class="post-meta">
+                  <i class="icon-tags"></i> <span class="meta-cat"><a href="">Wordpress</a>, <a href="">Classes</a>, <a href="">Beyonce</a></span>
+                  
+                  </div>
+                  <div class="post-contents"><p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates</p><p><a href="" class="button-readmore">Read More</a></p></div>
+                </div>
+              </article>
+              <!--postEND-->
+              
             </div>
-          </div>        
-        </div>
-      </div>
-      <!--news and testimonials END-->    
-    </section>
+          </div> 
+				<?php get_sidebar(); ?>
     <section class="apply-bottom">
       <div class="container">
         <a href="#">ENROLL IN A COURSE AT BRANDON COLLEGE⇒</a>
       </div>
     </section>
     <!--applybottomEND-->
-    
-    
+        
 		<?php get_footer(); ?>
     
     

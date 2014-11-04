@@ -1,22 +1,22 @@
-<?php
-/**
- * The sidebar containing the secondary widget area
- *
- * Displays on posts and pages.
- *
- * If no active widgets are in this sidebar, hide it completely.
- *
- * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
- */
+            </div>
+          </div> 
+        	<aside class="sidebar col-3 right mobile-full">
+          	<div class="sidebar-wrap">
+              <h4 class="main-heading"><span>Courses</span></h4>
+              <div class="sidebar-nav-wrap">
+                <ul class="sidebar-nav">
+                  <li><a href="">Intensive English</a></li>
+                  <li><a href="">Business English</a></li>
+                  <li><a href="">TOEFL Preparation</a></li>
+                  <li><a href="">GeneralEnglish</a></li>
+                  <li><a href="">Cambridge Course</a></li>
+                  <li><a href="">Communication Skills</a></li>
+                  <li><a href="">Private Classes</a></li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>      
+      </div>
+    </section>
 
-if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-	<div id="tertiary" class="sidebar-container" role="complementary">
-		<div class="sidebar-inner">
-			<div class="widget-area">
-				<?php dynamic_sidebar( 'sidebar-2' ); ?>
-			</div><!-- .widget-area -->
-		</div><!-- .sidebar-inner -->
-	</div><!-- #tertiary -->
-<?php endif; ?>

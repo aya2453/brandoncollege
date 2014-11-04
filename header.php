@@ -17,7 +17,7 @@
 
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.png">
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-72x72.png">
@@ -37,13 +37,13 @@
       <div class="container">
         <div class="topbar-inner clear">
           <div class="topbar-contact left mobile-full clear">
-          <span><i class="icon-phone"></i>(415)-391-5711</span><span><i class="icon-envelope"></i>info@brandoncollege.com</span>
+          <span><i class="fa fa-phone"></i>(415)-391-5711</span><span><i class="fa fa-envelope"></i>info@brandoncollege.com</span>
           </div>
           <ul class="topbar-sns right mobile-full">
-            <li><a class="icon-twitter" href="" target="_blank"></a></li>
-            <li><a class="icon-facebook" href="" target="_blank"></a></li>
-            <li><a class="icon-google" href="" target="_blank"></a></li>
-            <li><a class="icon-flickr" href="" target="_blank"></a></li>
+            <li><a class="fa fa-twitter hf-icon-t" href="" target="_blank"></a></li>
+            <li><a class="fa fa-facebook hf-icon-f" href="" target="_blank"></a></li>
+            <li><a class="fa fa-google hf-icon-g" href="" target="_blank"></a></li>
+            <li><a class="fa fa-flickr hf-icon-fl" href="" target="_blank"></a></li>
           </ul>
         </div>
       </div>

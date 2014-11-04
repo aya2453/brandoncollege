@@ -35,8 +35,8 @@
 // Columns
 .col {
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 	
 }
 [class*="pull-"], [class*="push-"] { position: relative; }
@@ -264,8 +264,8 @@
 
 // Rows
 .row {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin:0 -15px;
+	
 }
 
 .no-desktop { display: none; }

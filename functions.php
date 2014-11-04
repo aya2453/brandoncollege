@@ -136,8 +136,16 @@ function twentythirteen_fonts_url() {
  * @since Twenty Thirteen 1.0
  */
  
- /*Hide admin_bar*/
- add_filter( 'show_admin_bar', '__return_false' );
+function new_excerpt_mblength($length) {
+     return 100;
+}	
+add_filter('excerpt_mblength', 'new_excerpt_mblength');
+
+function new_excerpt_more($more) {
+	return '...';
+}	
+add_filter('excerpt_more', 'new_excerpt_more');
+
 
 function brandoncollege_scripts_styles() {
 	/*
