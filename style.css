@@ -227,8 +227,8 @@ h4.main-heading {
     padding-bottom: 3px; }
 
 h4, h4.main-heading, .h4 {
-  font-size: 20px;
-  font-size: 1.42857rem; }
+  font-size: 23px;
+  font-size: 1.64286rem; }
 
 h5, .h5 {
   font-size: 18px;
@@ -1138,9 +1138,6 @@ header.page-header {
 .main-contents-wrap {
   padding-right: 10px; }
 
-.sidebar-wrap {
-  padding-left: 30px; }
-
 .sidebar-nav-wrap li {
   border-bottom: 1px solid #ddd;
   padding: 0.8em 0; }
@@ -1222,6 +1219,13 @@ span.aso {
   font-size: 12px;
   font-size: 0.85714rem; }
 
+input[type="text"], input[type="email"] {
+  max-width: 100%; }
+
+.wpcf7-form textarea {
+  width: 100%; }
+
+/*テキストエリア幅*/
 @media only screen and (min-width: 740px) and (max-width: 959px) {
   .container, .tablet-container {
     max-width: 960px;

@@ -16,7 +16,7 @@ get_header(); ?>
       <!--pagewrap-->
       <div class="page-wrap">
         <!--container-->
-				<div class="container clear">
+				<div class="container">
         	<section class="bd-section">
           	<div class="row clear">
             	<div class="col-6 col mobile-full"><div class="entry-thumbnail"><?php the_post_thumbnail('full'); ?></div>
