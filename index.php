@@ -6,9 +6,50 @@
       	<h1 class="header-title">Blog</h1>
         </div>
       </header>
+      <!--pagewrap-->
+      <div class="page-wrap">
+        <!--container-->
+				<div class="container">
+          <div class="row clear">
+            <div class="col-9 col mobile-full">
+            	<section class="bd-section">aaaaaaaaaaaaaaaaaaaaaa</section>
+              <section class="bg-section">
+                <h4 class="main-heading"><span>Find a course</span></h4>
+                <div class="post-list-wrapper">
+                  <!--Post-->
+                  <!--PostEND-->
+              </section>
+              
+            </div>
+            <!--sidebar-->
+            <aside class="col-3 col mobile-full">
+              <div class="sidebar-wrap">
+                <h4 class="main-heading"><span>Location</span></h4>
+                <div class="sidebar-nav-wrap">
+                  <ul class="sidebar-nav">
+                    <li><a href="">Intensive English</a></li>
+                    <li><a href="">Business English</a></li>
+                    <li><a href="">TOEFL Preparation</a></li>
+                    <li><a href="">GeneralEnglish</a></li>
+                    <li><a href="">Cambridge Course</a></li>
+                    <li><a href="">Communication Skills</a></li>
+                    <li><a href="">Private Classes</a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </aside>
+            <!--sidebar-->
+          </div>
+          <!--rowEND-->
+        </div>
+        <!--containerEND-->
+      </div>
+      <!--pagewrapEND-->
+      
       <div class="page-wrap">
 				<div class="container clear">
-        	<div class="page-contents col-9 left mobile-full">
+        	<div class="page-contents col-9 col mobile-full">
           	<div class="main-contents-wrap">
             	<!--post-->
               <article class="news-post clear">

@@ -81,7 +81,6 @@ Tags: school,blue
   content: "\e611"; }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -189,7 +188,6 @@ hr {
   background-color: #ddd;
   margin-bottom: 0.5em;
   *margin: 1em 0;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 1px; }
 
@@ -390,8 +388,7 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
 
 input[type=checkbox], input[type=radio] {
   cursor: pointer;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   line-height: normal;
   margin: 0;
   padding: 0;
@@ -429,7 +426,6 @@ button[disabled], html input[disabled] {
 
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
@@ -1125,11 +1121,11 @@ header.page-header {
   border-top: #ddd 1px solid; }
   .post-bottom-wrap .post-bottom-right {
     border-left: #ddd 1px solid;
-    width: 50%;
+    /*width:50%;*/
     padding: 3px 0; }
   .post-bottom-wrap .post-bottom-left {
     padding: 3px 0;
-    width: 50%; }
+    /*width:50%;*/ }
 
 .post-list-wrapper {
   overflow: hidden;

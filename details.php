@@ -1,5 +1,8 @@
 <?php
+/*
+Theme Name:プログラム詳細
 
+*/
 get_header(); ?>
 
 		<!--page-main-->
